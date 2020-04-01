@@ -1,0 +1,17 @@
+.error{
+    padding: 10px;
+    text-align: center;
+    font-size: xx-large;
+    text-align: center;
+    border: 1px;
+    background-color: aqua;
+    border: brown;
+
+}
+.link{
+    text-align: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    padding: 4px;
+    
+}

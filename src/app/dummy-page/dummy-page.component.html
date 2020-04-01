@@ -1,0 +1,43 @@
+
+<div>
+  <label>Event binding:</label>
+  <input type="text" [value]="hi">
+  <button (click)="f1()" type="button" >Click Me</button>
+</div>
+<br>
+<div>
+  <label>ngIf check:</label>
+  <div *ngIf="showMe">
+    <p> ngIf is TRUE</p>
+  </div>
+</div>
+
+<br>
+<div>
+  <label>Attribute hidden:</label>
+  <div [hidden]="showMe">
+    <p> Hidden is FALSE</p>
+  </div>
+</div>
+
+<br>
+<div>
+  <label>Attribute class:</label>
+  <div [ngClass]="{'error':showMe}">
+    <p> Class attr is set</p>
+  </div>
+</div>
+
+<div>
+  <label>Attribute style:</label>
+  <div [ngStyle]="{'color':showMe ? 'green' : 'red' }">
+    <p> Style  attr is set</p>
+  </div>
+</div>
+
+<div>
+  <label>ngFor:</label>
+  <div *ngFor="let data of b">
+    <p> ngfor {{data}}</p>
+  </div>
+</div>
